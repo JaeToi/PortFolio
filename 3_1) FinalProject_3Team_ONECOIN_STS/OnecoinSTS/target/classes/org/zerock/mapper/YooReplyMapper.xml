@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.zerock.mapper.YooReplyMapper">
+
+
+	<!-- 
+		1638664번 게시글에 댓글을 삽입해 주었습니다.
+		INSERT into tbl_reply (rno, bno, reply, replyer)
+		VALUES (seq_reply.nextval, 1327492, '댓글 등록 테스트', '장나라');
+		 -->
+	<insert id="insert">
+		INSERT into tbl_reply (rno, bno, reply, replyer)
+		VALUES (seq_reply.nextval, #{bno}, #{reply}, #{replyer})
+	</insert>
+
+	<!-- 
+		select * from tbl_reply where rno = 2;
+	 -->
+	 <select id="read" resultType="org.zerock.domain.YooReplyVO">
+	 	select * from tbl_reply where rno = #{rno}
+	 </select>
+	 
+	 <delete id="delete">
+	 DELETE from tbl_reply WHERE rno = #{rno}
+	 </delete>
+	 
+	<!--   UPDATE tbl_reply set reply = '즐거운 주말이 기다려집니다!', updatedate = sysdate
+		   WHERE rno = 10;
+	-->
+	<update id="update">
+	UPDATE tbl_reply set reply = #{reply}, updatedate = sysdate
+	WHERE rno = #{rno}
+	</update>
+	
+	
+	<!-- SELECT rno, bno, reply, replyer, replyDate, updatedate
+		 FROM tbl_reply
+		 WHERE bno = 1327489
+		 ORDER BY rno asc; -->
+	
+	<select id="getListWithPaging" resultType="org.zerock.domain.YooReplyVO">
+		 SELECT rno, bno, reply, replyer, replyDate, updatedate
+		 FROM tbl_reply
+		 WHERE bno = #{bno}
+		 ORDER BY rno asc
+	</select>
+	
+</mapper>

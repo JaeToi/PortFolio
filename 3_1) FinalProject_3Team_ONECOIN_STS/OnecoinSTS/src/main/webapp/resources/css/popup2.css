@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+#notice_wrap{
+  top: 10px; 
+  left: 50px; 
+  width: 45%; 
+  height: 727px; 
+  position: absolute;
+  border: 6px solid #706b6b;
+  border-radius: 7px;
+  background: rgba(22, 22, 22, 0.9);
+  z-index: 10;
+}
+.closeWrap{
+  margin-left: 10px;
+}
+#expiresChk{
+  margin-left: 10px;
+}
+.closeBtn{
+  margin-left: 64%;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.close_yea{
+  color: white !important;
+}
+.h2_yea{
+   color: #dad74e !important;
+   text-align: center;
+}
+.schedule-filter{
+  margin-top: 10px;
+}
+
+/* 
+---------------------------------------------
+classes schedule
+--------------------------------------------- 
+*/
+
+#schedule {
+  padding: 0px 0px 50px 0px !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#schedule table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+
+#schedule table tbody {
+  border-top: 1px solid #ffffff; 
+}
+
+#schedule table tbody tr {
+  border-bottom: 1px solid #ffffff;
+}
+
+#schedule table tbody tr td {
+  border-right: 1px solid #ffffff;
+  height: 100px;
+}
+
+#schedule table tr td {
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+
+.schedule-table.filtering .ts-item {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.schedule-table.filtering .ts-item.show {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+#schedule .filters {
+  margin-bottom: 40px;
+}
+#schedule .filters ul {
+  padding: 0;
+  text-align: center;
+}
+#schedule .filters ul li {
+  list-style: none;
+  display: inline;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+  font-size: 1.0rem;
+  font-weight: 500;
+  color: #6e6d6d;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#schedule .filters ul li:after {
+  content: "/";
+  margin-left: 10px;
+  color: #ffffff;
+}
+#schedule .filters ul li:last-child {
+  margin-right: 0px;
+}
+#schedule .filters ul li:last-child::after {
+  display: none;
+}
+#schedule .filters ul li.active,
+#schedule .filters ul li:hover {
+  color: #ffffff;
+}
+#schedule .filters-content {
+  margin-top: 50px;
+}
+#schedule .filters-content .show {
+  opacity: 1;
+  visibility: visible;
+  transition: all 350ms;
+}
+#schedule .filters-content .hide {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 350ms;
+}
+
+@media (max-width: 545px){
+#notice_wrap{
+  top: 10px; 
+  left: 50px; 
+  width: 49% !important; 
+  height: 727px; 
+  position: absolute;
+  border: 6px solid #706b6b;
+  border-radius: 7px;
+  background: rgba(22, 22, 22, 0.9);
+  z-index: 10;
+}
+	
+	
+#schedule table tbody tr td {
+  border-right: 1px solid #ffffff;
+  height: 80px !important;
+}
+
+#schedule table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+
+#schedule table tr td {
+  color: #ffffff;
+  font-size: 0.5rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+#schedule .filters ul li {
+	font-size: 0.5rem;
+
+}
+.close_yea{
+	font-size: 0.3rem;	
+}
+.closeBtn{
+	font-size: 0.3rem;
+	margin-left: 20%;
+}
+}
+
+@media (max-width: 1050px) {
+ #schedule table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+
+#schedule table tbody tr td {
+  border-right: 1px solid #ffffff;
+  height: 90px;
+}
+
+#schedule table tr td {
+  color: #ffffff;
+  font-size: 0.5rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+#schedule .filters ul li {
+	font-size: 0.5rem;
+
+}
+.close_yea{
+	font-size: 0.3rem;	
+}
+.closeBtn{
+	font-size: 0.3rem;
+	margin-left: 20%;
+}
+}
+
+
+@media (max-width:1170px){
+#schedule table tbody tr td {
+  border-right: 1px solid #ffffff;
+  height: 90px;
+	}
+	
+}
+
+@media (max-width:1450px){
+.closeBtn{
+	font-size: 1rem;
+	margin-left: 50% !important;
+	}	
+	
+}
+
+

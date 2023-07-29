@@ -1,0 +1,99 @@
+.main_btn{
+    width: 100%;
+}
+
+.list_btn{
+    margin-top: 5%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    font-family: 'Cafe24SsurroundAir';
+}
+
+h1{
+    text-align: center;
+}
+
+.name_nav{
+    font-weight: bold;
+    font-size: 5.0rem !important;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.3rem;
+    color: rgb(255, 255, 255) !important;
+}
+
+.cf_main{
+    background: black;
+    height: 130px !important;
+    text-align: center !important;
+    width: 100%;
+}
+
+.navbar-toggler{
+    background: #fff !important;
+}
+
+.side_font{
+    font-weight: bold !important;
+}
+
+.page_top{
+    margin:5% 0 5% 0;
+    font-weight: bold ;
+}
+.logo{
+    margin-bottom: 12px;
+    margin-left: -5%;
+    margin-right: 13%;
+}
+
+.login_btn{
+    width: 50%;
+    color: black !important;
+    font-size: 1.3rem !important;
+}
+
+.login_card{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.card-header{
+    background: #ffd312 !important; 
+    font-size: 2.0rem;
+    font-weight: bold;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.3rem;
+}
+
+.login_title{
+    font-size: 1.5rem !important;
+    font-weight: bold !important; 
+}
+
+.login_text{
+    font-size: 1.4rem;
+    color: rgb(100, 99, 99);
+}
+
+.loding_btn{
+   margin-top: 10%;
+   width: 100%;
+}

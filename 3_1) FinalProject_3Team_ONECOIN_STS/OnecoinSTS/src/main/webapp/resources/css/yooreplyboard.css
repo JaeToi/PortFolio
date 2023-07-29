@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.product_th{
+	text-align: center !important;
+} 
+.product_td:first-child {
+	text-align: center !important;
+}
+#regBtn{
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+}
+.product_select{
+	height: 32px;
+	width: 10rem;
+}
+#serchcan{
+	height: 32px !important;
+	width: 30rem;
+}
+#searchForm{
+	text-align: center;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+.product_body{
+	width: 90%;
+	margin: 0 auto;
+}
+.product_heading{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 3rem;
+}
+#modifytotalForm{
+	width: 90%;
+	margin: 0 auto;
+}
+#addReplyBtn{
+	font-size: 1rem;
+}
+#replylistword{
+	font-size: 1.6rem;
+	
+}
+.chat{
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+}

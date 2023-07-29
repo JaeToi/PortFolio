@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'NanumSquareNeo-Variable';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  font-family: 'NanumSquareNeo-Variable';
+}
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.features .flip {
+  width: calc(100%/4);
+  height: 220px;
+  perspective: 1100px;
+  text-align: center;
+}
+
+.features .card {
+  display: block;
+  width: 100%; 
+  height: 100%; 
+  position: relative;
+  transition: .4s;
+  transform-style: preserve-3d;
+}  
+
+.features .icon-box {
+  padding: 20px;
+  transition: 0.3s;
+  line-height: 120px;
+}
+
+.features .front, .back {
+  position: absolute;
+  width: 100%; 
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.features .back { 
+  /* background: royalblue;  */
+  transform: rotateY(180deg);
+  background-color: rgb(211, 231, 238);
+}
+
+.features .flip:hover .card {
+  transform: rotateY(180deg);
+}
+
+.features .icon-box h3 {
+  font-weight: 700;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.features .icon-box h3 a {
+  color: #37423b;
+}
+
+.features .lang_logo{
+  width: 50%;
+  height: 10vh;
+}
+
+.features .lang_logo2{
+  width: 80%;
+  height: 10vh;
+}
+
+.features .lang_back{
+  font-size: 1.0rem;
+  line-height: 25px;
+}
+
+.features .lang_back_title{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.features .lang_mark{
+  /* background-color: #e6d44f; */
+  background: linear-gradient(to bottom, #e6d44f 80%, transparent 100%);
+}
+
+.hashtag{
+  padding-right: 15px;
+  text-decoration: none;
+  color: #8a8a8a;
+}
+
+.hashtag:hover{
+  color: rgb(79, 161, 255);
+}
+
+/* 미디어 쿼리*/
+
+
+@media (min-width:441px) and (max-width:560px){
+.features .icon-box h3 {
+  font-weight: 700;
+  line-height: 2;
+  font-size: 0.8rem !important;
+}
+.features .flip {
+  width: calc(100%/2);
+  height: 220px;
+  perspective: 1100px;
+  text-align: center;
+}
+
+.features .card {
+  display: block;
+  width: 100%; 
+  height: 110% !important; 
+  position: relative;
+  transition: .4s;
+  transform-style: preserve-3d;
+  margin-top: 30px !important;
+}  
+.flip{
+   margin-top:22px !important;
+}
+.features .lang_back{
+  font-size: 0.8rem;
+  line-height: 25px;
+}
+   
+}
+
+
+
+@media (min-width:560px) and (max-width:770px){
+.features .icon-box h3 {
+  font-weight: 700;
+  line-height: 2;
+  font-size: 1.2rem !important;
+}
+.features .flip {
+  width: calc(100%/2);
+  height: 220px;
+  perspective: 1100px;
+  text-align: center;
+}
+
+.features .card {
+  display: block;
+  width: 100%; 
+  height: 110% !important; 
+  position: relative;
+  transition: .4s;
+  transform-style: preserve-3d;
+  margin-top: 30px !important;
+}  
+.flip{
+   margin-top:22px !important;
+}
+   
+}
+
+
+@media (min-width:770px) and (max-width:1200px){
+.features .icon-box h3 {
+  font-weight: 700;
+  line-height: 2;
+  font-size: 1.2rem !important;
+}
+.features .flip {
+  width: calc(100%/2);
+  height: 220px;
+  perspective: 1100px;
+  text-align: center;
+}
+
+.features .card {
+  display: block;
+  width: 100%; 
+  height: 100%; 
+  position: relative;
+  transition: .4s;
+  transform-style: preserve-3d;
+}  
+
+   
+}

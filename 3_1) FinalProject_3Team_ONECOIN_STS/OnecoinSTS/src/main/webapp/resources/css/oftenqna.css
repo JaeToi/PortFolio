@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+@font-face {
+   font-family: 'NanumSquareNeo-Variable';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+ }
+ 
+.qna_top{
+   margin-bottom: 5%;
+}
+
+#button {
+  margin: 0 auto;
+  background: #a6e3fb;
+  padding: 10px;
+  cursor: pointer;
+  width: 60%;
+  border:1px solid #9f9f9f;
+}
+
+#info {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#info p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#button1 {
+  margin: 0 auto;
+  background: #a6e3fb;
+  padding: 10px;
+  cursor: pointer;
+  width: 60%;
+  border:1px solid #9f9f9f;
+}
+
+#info1 {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#info1 p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#button2 {
+  margin: 0 auto;
+  background: #a6e3fb;
+  padding: 10px;
+  cursor: pointer;
+  width: 60%;
+  border:1px solid #9f9f9f;
+}
+
+#info2 {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#info2 p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#button3 {
+  margin: 0 auto;
+  background: #a6e3fb;
+  padding: 10px;
+  cursor: pointer;
+  width: 60%;
+  border:1px solid #9f9f9f;
+}
+
+#info3 {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#info3 p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#button4 {
+  margin: 0 auto;
+  background: #a6e3fb;
+  padding: 10px;
+  cursor: pointer;
+  width: 60%;
+  border:1px solid #9f9f9f;
+}
+
+#info4 {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#info4 p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#button7 {
+  margin: 0 auto;
+  background: #a6e3fb;
+  padding: 10px;
+  cursor: pointer;
+  width: 60%;
+  border:1px solid #9f9f9f;
+}
+
+#info7 {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#info7 p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#button8 {
+  margin: 0 auto;
+  background: #a6e3fb;
+  padding: 10px;
+  cursor: pointer;
+  width: 60%;
+  border:1px solid #9f9f9f;
+}
+
+#info8 {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#info8 p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#button9 {
+  margin: 0 auto;
+  background: #a6e3fb;
+  padding: 10px;
+  cursor: pointer;
+  width: 60%;
+  border:1px solid #9f9f9f;
+}
+
+#info9 {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#info9 p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#button10 {
+  margin: 0 auto;
+  background: #a6e3fb;
+  padding: 10px;
+  cursor: pointer;
+  width: 60%;
+  border:1px solid #9f9f9f;
+}
+
+#info10 {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#info10 p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#button11 {
+  margin: 0 auto;
+  background: #a6e3fb;
+  padding: 10px;
+  cursor: pointer;
+  width: 60%;
+  border:1px solid #9f9f9f;
+}
+
+#info11 {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#info11 p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.carousel-item > h1{
+   font-family: 'NanumSquareNeo-Variable';
+   font-size: 1.5rem;
+}
+
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.qnaboard_kwan {
+  font-size: 2.0rem;
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+
+.qnaboard_kwan2{
+   margin-bottom: 10%;
+}

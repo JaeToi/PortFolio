@@ -1,0 +1,80 @@
+@font-face {
+   font-family: 'NanumSquareNeo-Variable';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+ }
+*{
+font-family: 'NanumSquareNeo-Variable';
+}
+.header1{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background: #222;
+}
+.navbar{
+   width: 50% !important;
+}
+
+.nav-item .nav-link{
+   color: black;
+}
+
+.container-fluid{
+   justify-content: space-around !important;
+}
+.navbar-brand{
+   margin: 0;
+}
+.nav_btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80px !important;
+}
+@media (max-width:991px) {
+   .container-fluid{
+      flex-direction: row-reverse;
+   }
+}
+.me-auto{
+   width: 100% !important;
+}
+.me-auto li{
+   margin: 0 auto !important;
+   text-align: center;
+}
+
+@media (min-width: 992px){
+   .navbar-expand-lg .navbar-nav .dropdown-menu {
+      margin-left: -35%;
+   }
+}
+@media (max-width: 992px){
+   .dropdown-toggle{
+      margin-left: 9%;
+   }
+   .me-auto{
+      margin-top: 5%;
+      margin-left: -26%;
+   }
+}
+.nav_logo{
+   width: 25%;
+}
+.logo_img{
+   width: 100%;
+}
+
+.btn_signup a{
+	text-decoration: none;
+	color: black;
+}
+.nav_login{
+	margin-right: 5px;
+}
+
+.login_nav{
+   color: black;
+}

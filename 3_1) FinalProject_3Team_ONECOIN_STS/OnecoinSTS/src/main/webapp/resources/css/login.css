@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.login_btn{
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+
+.login_con{
+	width: 25%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.login_hr{
+	border: 0;
+	height: 3px;
+	background: #427DCE;
+	margin-bottom: 9%;
+}
+
+.login_main{
+	text-align: center;
+}
+
+.login_lead{
+	text-align: center;
+}
+
+.id_form , .pw_form{
+	margin-bottom: 2%;
+	border: 1px solid black;
+}
+
+.login_join{
+	margin-left: 33%;
+}
+
+
+.login_footer_singup{
+	font-size: 0.9rem;
+}
+
+.logo_main{
+	font-size: 4.5rem;
+	color: #427DCE;
+	font-family: 'Lilita One', cursive;
+	letter-spacing: 4px;
+}
+
+.logo_main:hover{
+	color: #ffdb27;
+}

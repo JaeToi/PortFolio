@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* 아이디 체크 확인 */
+.id_ck1{
+	display: none;
+}
+
+.id_ck2{
+	display: none;
+}
+
+/* 유효성 검사 문구 */
+.id_ck{
+	display:none;
+}
+.pw_ck{
+	display:none;
+}
+
+.pw_ck_ck{
+	display:none;
+}
+
+.pw_ck_ck1{
+	display:none;
+}
+.pw_ck_ck2{
+	display:none;
+}
+.email_ck1{
+	display:none;
+}
+.email_ck2{
+	display:none;
+}
+.email_ck3{
+	display:none;
+}
+.email_ck4{
+	display:none;
+}
+.email_ck5{
+	display:none;
+}
+
+.adress_ck{
+	display:none;
+}
+
+
+  .input-form {
+    margin-top: 80px;
+    padding: 20px;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15)
+  }
+
+  .btn_signup2{
+    width: 100%;
+    font-size: 1.0rem;
+   	margin: 0 auto;
+  }
+
+
+  .form-control:focus {
+    border-color: rgb(255, 205, 39);
+    box-shadow: 0 0 0 0.1rem  rgb(255, 218, 96);
+} 
+
+.signup_container{
+  width: 40%;
+}
+
+input::placeholder{
+  font-size: 0.8rem;
+  color: rgb(201, 199, 199) !important;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+.foot_p{
+  font-size: 0.7rem;
+}
+
+
+.input_sign{
+	border: 1px solid black;
+}
+
+.number_btn{
+	width: 100%;
+	color: black;
+	margin: 0 auto;
+}
+.num_btn{
+	margin-top: 10px;
+}

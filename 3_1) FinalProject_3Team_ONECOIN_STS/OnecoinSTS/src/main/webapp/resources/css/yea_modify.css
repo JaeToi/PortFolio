@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.input_wrap {
+	padding: 5px 20px;
+}
+
+.yea_label {
+	display: block;
+	margin: 10px 0;
+	font-size: 1.25rem;
+}
+
+.yea_input {
+	padding: 5px;
+	font-size: 1.06rem;
+}
+
+.yea_textarea {
+	width: 800px;
+	height: 200px;
+	font-size: 15px;
+	padding: 0.9rem;
+}
+
+.yea_btn {
+	display: inline-block;
+	font-size: 1.37rem;
+	padding: 6px 12px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-weight: 600;
+	width: 140px;
+	height: 41px;
+	line-height: 39px;
+	text-align: center;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.btn_wrap {
+	padding-left: 80px;
+	margin-top: 50px;
+}
+#delete_btn{
+	background-color: pink;
+}

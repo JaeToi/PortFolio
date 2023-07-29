@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'NanumSquareNeo-Variable';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+footer.nb-footer {
+  background: #222;
+  border-top: 4px solid #b78c33; 
+}
+
+footer.nb-footer .footer_about {
+  margin: 0 auto;
+  text-align: center; 
+  margin-top: 15px; 
+}
+
+footer.nb-footer .footer_about p {
+  font-size: 0.7rem;
+  color: #999;
+  margin-top: 20px; 
+}
+
+footer.nb-footer .footer_about ul li a {
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  color: #b78c33;
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+footer.nb-footer .footer_about ul li a:hover {
+  background: #b78c33;
+  color: #fff;
+  border-color: #b78c33; 
+}
+
+footer.nb-footer .footer-info-single {
+  margin-top: 30px; 
+}
+
+footer.nb-footer .footer-info-single .title {
+  color: #aaa;
+  text-transform: uppercase;
+  font-size: 1.0rem;
+  border-left: 4px solid #b78c33;
+  padding-left: 5px; 
+  font-family: 'NanumSquareNeo-Variable';
+}
+
+footer.nb-footer .footer-info-single ul li a {
+  display: block;
+  color: #aaa;
+  padding: 2px 0; 
+}
+
+footer.nb-footer .footer-info-single ul li a:hover {
+  color: #b78c33; 
+}
+
+footer.nb-footer .footer-info-single p {
+  font-size: 0.5rem;
+  line-height: 20px;
+  color: #aaa; 
+}
+
+footer.nb-footer .copyright {
+  margin-top: 15px;
+  background: #111;
+  padding: 7px 0;
+  color: #999; 
+}
+
+footer.nb-footer .copyright p {
+  margin: 0;
+  padding: 0; 
+  font-size: 0.7rem;
+}
+
+.list-unstyled{
+  font-size: 0.8rem;
+}
+
+.list-unstyled a{
+  font-size: 0.8rem;
+  text-decoration: none;
+}

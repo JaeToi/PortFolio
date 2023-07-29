@@ -1,0 +1,189 @@
+.memobox_yea{
+	margin-top: 110px;
+}
+
+.time_yea{
+	margin-left: 15px;
+	margin-bottom: 80px;
+}
+
+@-webkit-keyframes flipTop {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(0deg); }
+
+  100% {
+    -webkit-transform: perspective(400px) rotateX(-90deg); } }
+
+@-webkit-keyframes flipBottom {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(90deg); }
+
+  100% {
+    -webkit-transform: perspective(400px) rotateX(0deg); } }
+
+@-moz-keyframes flipTop {
+  0% {
+    -moz-transform: perspective(400px) rotateX(0deg); }
+
+  100% {
+    -moz-transform: perspective(400px) rotateX(-90deg); } }
+
+@-moz-keyframes flipBottom {
+  0% {
+    -moz-transform: perspective(400px) rotateX(90deg); }
+
+  100% {
+    -moz-transform: perspective(400px) rotateX(0deg); } }
+
+@-ms-keyframes flipTop {
+  0% {
+    -ms-transform: perspective(400px) rotateX(0deg); }
+
+  100% {
+    -ms-transform: perspective(400px) rotateX(-90deg); } }
+
+@-ms-keyframes flipBottom {
+  0% {
+    -ms-transform: perspective(400px) rotateX(90deg); }
+
+  100% {
+    -ms-transform: perspective(400px) rotateX(0deg); } }
+
+@-keyframes flipTop {
+  0% {
+    transform: perspective(400px) rotateX(0deg); }
+
+  100% {
+    transform: perspective(400px) rotateX(-90deg); } }
+
+@-keyframes flipBottom {
+  0% {
+    transform: perspective(400px) rotateX(90deg); }
+
+  100% {
+    transform: perspective(400px) rotateX(0deg); } }
+
+.flipTimer {
+  color: #fcfcfc;
+  font-weight: bold;
+  font-size: 3.1rem;
+  line-height: 100px;
+  height: 250px; 
+  background : url("/resources/img/event_background2.png");
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  
+}
+.flipTimer .seperator {
+  vertical-align: middle;
+  margin: 0 -20px;
+  display: inline;
+}
+  .flipTimer .seconds,
+  .flipTimer .minutes,
+  .flipTimer .hours,
+  .flipTimer .days {
+    height: 50%;
+    display: inline;
+    padding-left: 50px;
+     }
+  .flipTimer .digit-set {
+    border-radius: 10px;
+    width: 5%;
+    height: 41%;
+    display: inline-block;
+    position: relative;
+    margin: 0 10px; 
+  }
+  .flipTimer .digit {
+    position: absolute;
+    height: 100%; 
+  }
+    .flipTimer .digit > div {
+      position: absolute;
+      left: 0;
+      overflow: hidden;
+      height: 50%;
+      padding: 0 10px; 
+    }
+      .flipTimer .digit > div.digit-top, .flipTimer .digit > div.shadow-top .digit > div.digit-bottom .digit > div.shadow-bottom {
+		background-color: #000000;
+        text-align: center;
+        box-sizing: border-box;
+        top: 0;
+        z-index: 0;
+        border-radius: 10px; 
+      }
+        .flipTimer .digit > div.digit-top:before, .flipTimer .digit > div.shadow-top:before {
+          content: "";
+          box-shadow: inset 0 10px 25px rgb(0, 0, 0);
+    	  border-radius: 10px; 
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          left: 0;
+          top: 0; 
+        }
+      .flipTimer .digit > div.digit-bottom, .flipTimer .digit > div.shadow-bottom {
+        background-color: #000000 !important;
+        text-align: center;
+        bottom: 0;
+        z-index: 0;
+        border-radius: 10px; }
+        .flipTimer .digit > div.digit-bottom .digit-wrap, .flipTimer .digit > div.shadow-bottom .digit-wrap {
+          display: block;
+          margin-top: -76%; }
+        .flipTimer .digit > div.digit-bottom:before, .flipTimer .digit > div.shadow-bottom:before {
+          content: "";
+          border-radius: 10px;
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          left: 0;
+          top: 0; 
+        }
+      .flipTimer .digit > div.shadow-bottom {
+        width: 2%;
+         }
+    .flipTimer .digit.previous .digit-top,
+    .flipTimer .digit.previous .shadow-top {
+      
+      z-index: 5;
+      -webkit-transform-origin: 50% 100%;
+      -webkit-animation: flipTop 0.3s ease-in both;
+      -moz-transform-origin: 50% 100%;
+      -moz-animation: flipTop 0.3s ease-in both;
+      -ms-transform-origin: 50% 100%;
+      -ms-animation: flipTop 0.3s ease-in both;
+      transform-origin: 50% 100%;
+      animation: flipTop 0.3s ease-in both; }
+    .flipTimer .digit.previous .digit-bottom,
+    .flipTimer .digit.previous .shadow-bottom {
+      z-index: 1x;
+      opacity: 1; 
+    }
+    .flipTimer .digit.active .digit-top {
+      z-index: 1; 
+      width: 85px;}
+    .flipTimer .digit.active .digit-bottom {
+      width: 84px;
+      z-index: 2;
+      -webkit-transform-origin: 50% 0%;
+      -webkit-animation: flipBottom 0.3s 0.3s ease-out both;
+      -moz-transform-origin: 50% 0%;
+      -moz-animation: flipBottom 0.3s 0.3s ease-out both;
+      -ms-transform-origin: 50% 0%;
+      -ms-animation: flipBottom 0.3s 0.3s ease-out both;
+      transform-origin: 50% 0%;
+      animation: flipBottom 0.3s 0.3s ease-out both; }
+
+      
+/* media query 시작 */
+
+@media (max-width:1400px){
+.flipTimer{
+   display : none !important;
+}   
+   
+   }
