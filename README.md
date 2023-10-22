@@ -32,7 +32,7 @@ One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 �
 
 ### ※ < React 및 SpringBoot로 구현한 프로젝트 > ※
 
- 2. 3_3)FinalProject_3Team_ONECOIN_ReactBackEnd 의 압축을 푼다. ( 사용한 Tool : STS )
+ - 3_3)FinalProject_3Team_ONECOIN_ReactBackEnd 의 압축을 푼다. ( 사용한 Tool : STS )
   - 2-1) src -> resources -> application.properties 파일을 클릭후 아래 사항을 확인해준다.
 	- ① server.port = 9008
 	- ② spring.datasource.username = one 
