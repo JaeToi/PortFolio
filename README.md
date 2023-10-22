@@ -22,7 +22,7 @@ One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 �
 
 ### ※ < STS만으로 구현한 프로젝트 > ※
 
- 0. Project_Finally_3Team_sql.sql 파일을 OracleDB에 복사후 Ctrl+A로 전체 선택 Ctrl+Enter로 입력한다.
+ - Project_Finally_3Team_sql.sql 파일을 OracleDB에 복사후 Ctrl+A로 전체 선택 Ctrl+Enter로 입력한다.
 
 - 3_1)FinalProject_3Team_ONECOIN_STS.zip 파일의 압축을 푼다. ( 사용한 Tool : STS )
   - 1-1) src-> main -> webapp -> WEB-INF -> spring -> root.context.xml 파일에 DataBase의 아이디/비밀번호를 확인한다.
