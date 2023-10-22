@@ -12,7 +12,7 @@ One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 �
 
 
 
-### ※ 사용 Tool ※
+### 사용 Tool
 - Eclipse  (STS)
 - DB (OracleDB)
 - React (VScode)
@@ -20,17 +20,17 @@ One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 �
 
 ※ 참조 : 압축푸는순서는 상관없다. 
 
-### ※ < STS만으로 구현한 프로젝트 > ※
+### DataBase sql 추가 
+- Project_Finally_3Team_sql.sql 파일을 OracleDB에 복사후 Ctrl+A로 전체 선택 Ctrl+Enter로 입력한다.
 
- - Project_Finally_3Team_sql.sql 파일을 OracleDB에 복사후 Ctrl+A로 전체 선택 Ctrl+Enter로 입력한다.
-
+### < STS만으로 구현한 프로젝트 >
 - 3_1)FinalProject_3Team_ONECOIN_STS.zip 파일의 압축을 푼다. ( 사용한 Tool : STS )
   - 1-1) src-> main -> webapp -> WEB-INF -> spring -> root.context.xml 파일에 DataBase의 아이디/비밀번호를 확인한다.
   - 1-1) ONECOIN_STS (오른쪽마우스)-> Run As -> Run on Server 클릭하여 서버를 구동시킨다.
     
 ---------------------------------------------------------------------------------------------------------------------------
 
-### ※ < React 및 SpringBoot로 구현한 프로젝트 > ※
+### < React 및 SpringBoot로 구현한 프로젝트 >
 
  - 3_3)FinalProject_3Team_ONECOIN_ReactBackEnd 의 압축을 푼다. ( 사용한 Tool : STS )
 	- src -> resources -> application.properties 파일을 클릭후 아래 사항을 확인해준다.
@@ -47,7 +47,7 @@ One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 �
 	  - Terminal의 command Prompt(cmd)에서 npm start로 서버를 구동시켜준다.
 ---------------------------------------------------------------------------------------------------------------------------
    
-### ※ <Android Studio 및 SpringBoot로 구현한 프로젝트> ※
+### <Android Studio 및 SpringBoot로 구현한 프로젝트>
 
 - 3_5)FinalProject_3Team_ONECOIN_Android_Backend 의 압축을 푼다. ( 사용한 Tool : STS )
 	- src -> resources -> application.properties 파일을 클릭후 아래 사항을 확인해준다.
