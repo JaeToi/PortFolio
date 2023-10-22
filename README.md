@@ -50,17 +50,17 @@ One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 �
 ### ※ <Android Studio 및 SpringBoot로 구현한 프로젝트> ※
 
 - 3_5)FinalProject_3Team_ONECOIN_Android_Backend 의 압축을 푼다. ( 사용한 Tool : STS )
-	- 4-1) src -> resources -> application.properties 파일을 클릭후 아래 사항을 확인해준다.
+	- src -> resources -> application.properties 파일을 클릭후 아래 사항을 확인해준다.
 		- ① server.port = 9003
 		- ② spring.datasource.username = one 
 		- ③ spring.datasource.password = one
 		- ③ spring.jpa.hibernate.ddl-auto = update 
-	- 4-2) Onecoin_SpringBoot_AndroidApp (오른쪽마우스) -> Run As -> Spring Boot App 클릭하여 서버를 구동시킨다.
+	- Onecoin_SpringBoot_AndroidApp (오른쪽마우스) -> Run As -> Spring Boot App 클릭하여 서버를 구동시킨다.
 
--3_4)FinalProject_3Team_ONECOIN_Android_Frontend 의 압축을 푼다. ( 사용한 Tool : Android Studio )
+- 3_4)FinalProject_3Team_ONECOIN_Android_Frontend 의 압축을 푼다. ( 사용한 Tool : Android Studio )
 	- app-> java -> com.androidstudy.toolbarscrollviewexample 안에 있는 MainActivity, SignUpActivity 파일의 내용을 아래와 동일한지 확인해준다.
-	- ① MainActivity 68번째 줄 retrofit.baseUrl("http://192.168.0.55:9003/"  or "http://localhost:9003/")
-	- ② SignUpActivity 60번째 줄 retrofit.baseUrl("http://192.168.0.55:9003/" or "http://localhost:9003/")
+	- MainActivity 68번째 줄 retrofit.baseUrl("http://192.168.0.55:9003/"  or "http://localhost:9003/")
+	- SignUpActivity 60번째 줄 retrofit.baseUrl("http://192.168.0.55:9003/" or "http://localhost:9003/")
 
 - 그런다음 위쪽에 bar부분 start(▶)을 버튼을 클릭하여 구동시킨다.
   
