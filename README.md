@@ -27,6 +27,18 @@ One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 �
 - 3_1)FinalProject_3Team_ONECOIN_STS.zip 파일의 압축을 푼다. ( 사용한 Tool : STS )
   - 1-1) src-> main -> webapp -> WEB-INF -> spring -> root.context.xml 파일에 DataBase의 아이디/비밀번호를 확인한다.
   - 1-1) ONECOIN_STS (오른쪽마우스)-> Run As -> Run on Server 클릭하여 서버를 구동시킨다.
+ 
+☆☆☆ 참고사항 (확인해야할것들!!) ☆☆☆
+
+1. 프로젝트 오른쪽마우스 -> Properties -> Deployment Assembly 에서 아래그림처럼 되어있는지 확인
+![image](https://github.com/JaeToi/PortFolio/assets/95026188/49271594-3e8d-40b4-b3e0-47a43794e7fe)
+
+2. 프로젝트 오른쪽마우스 -> Properties -> Java Build Path 에서 아래그림처럼 되어있는지 확인
+![image](https://github.com/JaeToi/PortFolio/assets/95026188/0bb2f755-dfba-4f03-8b07-bb55f4c02541)
+
+3. 프로젝트 오른쪽마우스 -> Properties -> Deployment Assembly 에서 JRE System Library가 jdk로 되어있는지 확인 (jre로 되어있으면 삭제후 jdk으로 고칠것!!)
+![image](https://github.com/JaeToi/PortFolio/assets/95026188/9c220224-9243-464f-8a7c-ac10ba645db5)
+
     
 ---------------------------------------------------------------------------------------------------------------------------
 
