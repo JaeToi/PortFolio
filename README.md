@@ -13,10 +13,15 @@ One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 �
 
 
 ### 사용 Tool
-- Eclipse  (STS)
-- DB (OracleDB)
-- React (VScode)
-- AndroidApp Studio
+![image](https://github.com/JaeToi/PortFolio/assets/95026188/2c84edbe-31e8-469e-8ab3-1436b98539f7)
+
+### 구조도(use case diagram)
+![image](https://github.com/JaeToi/PortFolio/assets/95026188/62c00aca-9d6b-42d7-9669-6570d59852dc)
+
+### ERD(Entity Relationship Diagram)
+![image](https://github.com/JaeToi/PortFolio/assets/95026188/97504205-2144-4096-8e99-2ceb0c4efc84)
+
+
 
 ※ 참조 : 압축푸는순서는 상관없다. 
 
