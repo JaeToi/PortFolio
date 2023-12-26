@@ -1,6 +1,6 @@
 # Project
 
-## ![6472614_birthday_celebration_crowd_king_party_icon](https://github.com/JaeToi/PortFolio/assets/95026188/797bf3aa-2ff9-4903-964c-9f16b703e215)
+## 
 < 프로젝트 소개 > 
 One코인은 온라인 강의 제공을 위한 반응형 웹 사이트를 개발하기 위해   
 기획되었습니다. 
