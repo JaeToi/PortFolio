@@ -12,12 +12,12 @@ One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 �
 
 ### 사용 기술 and 환경
 
-O/S : Windows
-Server : Apache Tomcat
-DB : Oracle (RDB)
-Framework/Flatform : Spring MVC, Spring Security, MyBatis, Bootstrap, jQuery, Android
-Language : JAVA, Javascript, HTML5, CSS3, React, 
-Tool : Eclipse, GitHub, Git(SourceTree), SQL Developer, Android Studio, STS
+- O/S : Windows
+- Server : Apache Tomcat
+- DB : Oracle (RDB)
+- Framework/Flatform : Spring MVC, Spring Security, MyBatis, Bootstrap, jQuery, Android
+- Language : JAVA, Javascript, HTML5, CSS3, React, 
+- Tool : Eclipse, GitHub, Git(SourceTree), SQL Developer, Android Studio, STS
 
 -----------------------------------------------------------------------------------------------------
 
