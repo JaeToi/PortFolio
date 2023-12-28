@@ -10,10 +10,16 @@ One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 �
 이해가 잘 가지 않아 어려움을 겪는 분들을 위해 디테일적인 부분을 강조하여
 초심자들의 학습 욕구를 충족시키고자 합니다.
 
+### 사용 기술 and 환경
 
+O/S : Windows
+Server : Apache Tomcat
+DB : Oracle (RDB)
+Framework/Flatform : Spring MVC, Spring Security, MyBatis, Bootstrap, jQuery, Android
+Language : JAVA, Javascript, HTML5, CSS3, React, 
+Tool : Eclipse, GitHub, Git(SourceTree), SQL Developer, Android Studio, STS
 
-### 사용 Tool
-![image](https://github.com/JaeToi/PortFolio/assets/95026188/2c84edbe-31e8-469e-8ab3-1436b98539f7)
+-----------------------------------------------------------------------------------------------------
 
 ### 구조도(use case diagram)
 ![image](https://github.com/JaeToi/PortFolio/assets/95026188/62c00aca-9d6b-42d7-9669-6570d59852dc)
