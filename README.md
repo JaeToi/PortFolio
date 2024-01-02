@@ -1,23 +1,4 @@
-# Project
 
-## < 프로젝트 소개 > 
-One코인은 온라인 강의 제공을 위한 반응형 웹 사이트를 개발하기 위해   
-기획되었습니다. 
-이 프로젝트의 주요 의도는 다음과 같습니다.
-One코인은 사람들에게 어디서나 언제나 접근 가능한 온라인 강의 플랫폼을 제공하기
-위해 기획되었습니다. 이를 통해 지리적, 시간적 제약 없이 누구나 원하는 강의를
-수강할 수 있게 됩니다. 다양한 주제와 분야의 강의를 제공함으로써 보통 설명으로
-이해가 잘 가지 않아 어려움을 겪는 분들을 위해 디테일적인 부분을 강조하여
-초심자들의 학습 욕구를 충족시키고자 합니다.
-
-### 사용 기술 & 환경
-
-- O/S : Windows
-- Server : Apache Tomcat
-- DB : Oracle (RDB)
-- Framework/Flatform : Spring MVC, Spring Security, MyBatis, Bootstrap, jQuery, Android
-- Language : JAVA, Javascript, HTML5, CSS3, React, 
-- Tool : Eclipse, GitHub, Git(SourceTree), SQL Developer, Android Studio, STS
 
 -----------------------------------------------------------------------------------------------------
 
